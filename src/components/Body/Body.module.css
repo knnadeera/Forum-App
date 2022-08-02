@@ -1,0 +1,12 @@
+.profile {
+  border-radius: 1rem;
+  border-color: white;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  width: 10rem;
+  height: 30rem;
+}
+
+.body{
+    display: flex;
+}

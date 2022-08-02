@@ -1,0 +1,29 @@
+.button {
+  cursor: pointer;
+  display: block;
+  border-radius: 25px;
+  border-color: white;
+  background-color: #3f3f3f;
+  color: white;
+  padding: 0;
+  font-weight: bold;
+  height: 2rem;
+  width: 8rem;
+  float: right;
+  transition: 0.5s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  background-color: #3f3f3f;
+}
+
+.header {
+  padding: 0.5rem 5rem 0 5rem;
+  background-color: #3f3f3f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}

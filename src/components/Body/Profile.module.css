@@ -1,0 +1,46 @@
+.profile {
+  padding-top: 1rem;
+}
+
+.pfl {
+  text-align: center;
+}
+
+.img {
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding-bottom: 0%;
+}
+
+.pfl h6 {
+  padding-top: 0;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 25px;
+  border-color: white;
+  background-color: #3f3f3f;
+  color: white;
+  padding: 0;
+  font-weight: bold;
+  height: 2rem;
+  width: 5rem;
+  transition: 0.5s;
+  box-shadow: 0 2px 8px #2b2a2a;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 1rem;
+}
+
+.pages section {
+  display: flex;
+  flex-wrap: wrap;
+  border-color: aliceblue;
+}
