@@ -31,10 +31,14 @@
   box-shadow: 0 2px 8px #2b2a2a;
 }
 
+.button:hover {
+  transform: scale(1.1);
+}
+
 .pages {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  
 
   padding: 1rem;
 }
@@ -43,4 +47,22 @@
   display: flex;
   flex-wrap: wrap;
   border-color: aliceblue;
+}
+
+.pages button {
+  text-align: left;
+  border: none;
+  color: white;
+  background-color: #2b2a2a;
+  height: 2rem;
+  width: 10rem;
+}
+
+.pages button:hover {
+
+  transform: scale(1.1);
+  cursor: pointer;
+  padding: 0;
+  box-shadow: 0 2px 8px #555353;
+
 }

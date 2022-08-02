@@ -5,9 +5,7 @@ const Body = (props) => {
   return (
     <div className={classes.body}>
       <div className={classes.profile}>
-        <div>
           <Profile />
-        </div>
       </div>
       <div>
         <p>ihgiiufggwsrfgusrgwsghsowhgowho</p>

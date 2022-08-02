@@ -18,16 +18,16 @@ const Profile = (props) => {
       </div>
       <div className={classes.pages}>
         <section>
-          <a>Proposals</a>
+          <button>Proposals</button>
         </section>
         <section>
-          <a>New Proposal</a>
+          <button>New Proposal</button>
         </section>
         <section>
-          <a>Treasury</a>
+          <button>Treasury</button>
         </section>
         <section>
-          <a>About</a>
+          <button>About</button>
         </section>
       </div>
     </div>

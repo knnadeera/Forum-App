@@ -1,5 +1,6 @@
 import Body from "./components/Body/Body";
 import Header from "./components/Header/Header";
+import classes from './App.module.css'
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <section>
         <Header />
       </section>
-      <section>
+      <section className={classes.bodycomponent}>
         <Body/>
       </section>
     </div>
