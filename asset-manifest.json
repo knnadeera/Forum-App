@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Forum-App/static/css/main.c2c230de.chunk.css",
-    "main.js": "/Forum-App/static/js/main.30ab1a29.chunk.js",
-    "main.js.map": "/Forum-App/static/js/main.30ab1a29.chunk.js.map",
+    "main.css": "/Forum-App/static/css/main.892168f4.chunk.css",
+    "main.js": "/Forum-App/static/js/main.d0848517.chunk.js",
+    "main.js.map": "/Forum-App/static/js/main.d0848517.chunk.js.map",
     "runtime-main.js": "/Forum-App/static/js/runtime-main.1c8c6f4f.js",
     "runtime-main.js.map": "/Forum-App/static/js/runtime-main.1c8c6f4f.js.map",
-    "static/js/2.85e50c62.chunk.js": "/Forum-App/static/js/2.85e50c62.chunk.js",
-    "static/js/2.85e50c62.chunk.js.map": "/Forum-App/static/js/2.85e50c62.chunk.js.map",
+    "static/js/2.30a03608.chunk.js": "/Forum-App/static/js/2.30a03608.chunk.js",
+    "static/js/2.30a03608.chunk.js.map": "/Forum-App/static/js/2.30a03608.chunk.js.map",
     "index.html": "/Forum-App/index.html",
-    "static/css/main.c2c230de.chunk.css.map": "/Forum-App/static/css/main.c2c230de.chunk.css.map",
-    "static/js/2.85e50c62.chunk.js.LICENSE.txt": "/Forum-App/static/js/2.85e50c62.chunk.js.LICENSE.txt",
+    "static/css/main.892168f4.chunk.css.map": "/Forum-App/static/css/main.892168f4.chunk.css.map",
+    "static/js/2.30a03608.chunk.js.LICENSE.txt": "/Forum-App/static/js/2.30a03608.chunk.js.LICENSE.txt",
     "static/media/Logo.d41d77f3.png": "/Forum-App/static/media/Logo.d41d77f3.png",
     "static/media/ProfilePic.37c8bb84.JPG": "/Forum-App/static/media/ProfilePic.37c8bb84.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.1c8c6f4f.js",
-    "static/js/2.85e50c62.chunk.js",
-    "static/css/main.c2c230de.chunk.css",
-    "static/js/main.30ab1a29.chunk.js"
+    "static/js/2.30a03608.chunk.js",
+    "static/css/main.892168f4.chunk.css",
+    "static/js/main.d0848517.chunk.js"
   ]
 }
