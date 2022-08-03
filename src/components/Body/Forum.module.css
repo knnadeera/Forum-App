@@ -1,0 +1,38 @@
+.forum {
+  max-width: 95%;
+  width: auto;
+  margin: -1.5rem 8rem 0 0;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  animation: forum-appear 1s ease-out forwards;
+}
+
+.forum h1 {
+  color: white;
+}
+
+.forum_list {
+  padding: 0;
+  margin: 0rem -2.5rem auto;
+}
+
+.forum_list ul {
+  padding: auto;
+  margin: 0 0 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@keyframes forum-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

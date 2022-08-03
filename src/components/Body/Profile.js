@@ -1,9 +1,10 @@
 import classes from "./Profile.module.css";
 import ProfilePic from "../../Assets/ProfilePic.JPG";
+import Card from "../UI/Card";
 
 const Profile = (props) => {
   return (
-    <div className={classes.profile}>
+    <Card>
       <div className={classes.pfl}>
         <img
           src={ProfilePic}
@@ -30,7 +31,7 @@ const Profile = (props) => {
           <button>About</button>
         </section>
       </div>
-    </div>
+    </Card>
   );
 };
 

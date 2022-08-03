@@ -1,0 +1,23 @@
+.rap {
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: smaller;
+}
+
+.forum_content {
+  color: white;
+  padding: 1px 10px;
+  height: auto;
+  width: auto;
+}
+
+.user {
+  display: flex;
+}
+
+.user img {
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
