@@ -1,8 +1,20 @@
 import classes from "./Profile.module.css";
 import ProfilePic from "../../Assets/ProfilePic.JPG";
 import Card from "../UI/Card";
+import { useState } from "react";
+import About from "./About";
 
 const Profile = (props) => {
+  const [shownAbout, setShownAbout] = useState(false);
+
+  const aboutShownHandler = () => {
+    setShownAbout(true);
+  };
+
+  const aboutCloseHandler = () => {
+    setShownAbout(false);
+  };
+
   return (
     <Card>
       <div className={classes.pfl}>
@@ -22,13 +34,14 @@ const Profile = (props) => {
           <button>Proposals</button>
         </section>
         <section>
-          <button>New Proposal</button>
+          <button onClick={props.showNewProposal}>New Proposal</button>
         </section>
         <section>
           <button>Treasury</button>
         </section>
         <section>
-          <button>About</button>
+          <button onClick={aboutShownHandler}>About</button>
+          {shownAbout && <About onClose={aboutCloseHandler} />}
         </section>
       </div>
     </Card>

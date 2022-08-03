@@ -1,0 +1,20 @@
+.about {
+    color: white;
+    text-align: center;
+}
+
+.close {
+    cursor: pointer;
+    color: red;
+    background-color: #2b2a2a;
+    border: none;
+    border-radius: 50rem;
+    text-align: center;
+    position: relative;
+    top: -0.5rem;
+    left: 37rem;
+  }
+  
+  .close:hover {
+    background-color: #525151;
+  }

@@ -1,0 +1,49 @@
+.form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.title_input {
+  border-radius: 5px;
+  height: 2rem;
+}
+
+.proposal_input {
+  border-radius: 5px;
+  height: 10rem;
+}
+
+.form label {
+  padding: 1rem;
+}
+
+.close {
+  cursor: pointer;
+  color: red;
+  background-color: #2b2a2a;
+  border: none;
+  border-radius: 50rem;
+  text-align: center;
+  position: relative;
+  top: -0.5rem;
+  left: 37rem;
+}
+
+.close:hover {
+  background-color: #525151;
+}
+
+.post {
+  cursor: pointer;
+  margin-top: 1rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50rem;
+  background-color: #2b2a2a;
+  position: relative;
+  left: 35rem;
+}
+.post:hover {
+  background-color: #525151;
+}
