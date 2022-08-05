@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Forum-App/static/css/main.08281e32.chunk.css",
+    "main.css": "/Forum-App/static/css/main.fcefbdab.chunk.css",
     "main.js": "/Forum-App/static/js/main.4df47873.chunk.js",
     "main.js.map": "/Forum-App/static/js/main.4df47873.chunk.js.map",
     "runtime-main.js": "/Forum-App/static/js/runtime-main.1c8c6f4f.js",
@@ -8,7 +8,7 @@
     "static/js/2.47365d51.chunk.js": "/Forum-App/static/js/2.47365d51.chunk.js",
     "static/js/2.47365d51.chunk.js.map": "/Forum-App/static/js/2.47365d51.chunk.js.map",
     "index.html": "/Forum-App/index.html",
-    "static/css/main.08281e32.chunk.css.map": "/Forum-App/static/css/main.08281e32.chunk.css.map",
+    "static/css/main.fcefbdab.chunk.css.map": "/Forum-App/static/css/main.fcefbdab.chunk.css.map",
     "static/js/2.47365d51.chunk.js.LICENSE.txt": "/Forum-App/static/js/2.47365d51.chunk.js.LICENSE.txt",
     "static/media/Logo.d41d77f3.png": "/Forum-App/static/media/Logo.d41d77f3.png",
     "static/media/ProfilePic.37c8bb84.JPG": "/Forum-App/static/media/ProfilePic.37c8bb84.JPG"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.1c8c6f4f.js",
     "static/js/2.47365d51.chunk.js",
-    "static/css/main.08281e32.chunk.css",
+    "static/css/main.fcefbdab.chunk.css",
     "static/js/main.4df47873.chunk.js"
   ]
 }
