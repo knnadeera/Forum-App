@@ -1,22 +1,27 @@
 .about {
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .close {
-    cursor: pointer;
-    color: red;
-    background-color: #2b2a2a;
-    border: none;
-    border-radius: 50rem;
-    text-align: center;
-    top: -0.5rem;
-    left: 37rem;
-    align-self: flex-end;
-  }
-  
-  .close:hover {
-    background-color: #525151;
-  }
+  cursor: pointer;
+  color: red;
+  background-color: #2b2a2a;
+  border: none;
+  border-radius: 50rem;
+  text-align: center;
+  top: -0.5rem;
+  left: 37rem;
+  align-self: flex-end;
+}
+
+.close:hover {
+  background-color: #525151;
+}
+
+.about p {
+  padding: 0 4rem;
+  font-style: italic;
+}

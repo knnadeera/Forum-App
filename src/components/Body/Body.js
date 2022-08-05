@@ -93,7 +93,7 @@ const Body = (props) => {
         <Profile showNewProposal={newProposalShownHandler} />
       </div>
       <div>
-        <section >{content}</section>
+        <section className={classes.proposals}>{content}</section>
         {newProposalShown && (
           <NewProposal
             onAddProposal={addProposalHandler}

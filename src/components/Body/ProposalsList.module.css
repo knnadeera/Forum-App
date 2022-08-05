@@ -1,24 +1,23 @@
-.forum {
+.proposal {
   max-width: 95%;
   width: auto;
   margin: -1.5rem 8rem 0 0;
   padding-left: 30px;
   display: flex;
   flex-direction: column;
-  animation: forum-appear 1s ease-out forwards;
+  animation: proposal-appear 1s ease-out forwards;
 }
 
 .heading {
-  margin: -.5rem 0 0 3rem;
   color: white;
 }
 
-.forum_list {
+.proposal_list {
   padding: 0;
   margin: 0rem -2.5rem auto;
 }
 
-.forum_list ul {
+.proposal_list ul {
   padding: auto;
   margin: 0 0 1em;
   display: flex;
@@ -26,7 +25,7 @@
   flex-wrap: wrap;
 }
 
-@keyframes forum-appear {
+@keyframes proposal-appear {
   from {
     opacity: 0;
     transform: translateY(3rem);
@@ -35,5 +34,19 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 425px) {
+  .proposal {
+    padding: none;
+    margin-top: -1.5rem;
+    margin-left: -1.5rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .proposal_list {
+    padding: none;
+    width: 20px;
   }
 }

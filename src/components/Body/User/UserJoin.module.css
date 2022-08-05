@@ -1,17 +1,26 @@
-.form {
+.join_form {
   color: white;
   display: flex;
   flex-direction: column;
 }
 
-.title_input {
+.join_form label {
+  padding: 1rem;
+}
+
+.name {
   border-radius: 5px;
   height: 2rem;
 }
 
-.proposal_input {
+.email {
   border-radius: 5px;
-  height: 10rem;
+  height: 2rem;
+}
+
+.password {
+  border-radius: 5px;
+  height: 2rem;
 }
 
 .form label {
@@ -34,7 +43,7 @@
   background-color: #525151;
 }
 
-.addbtn {
+.btn button {
   cursor: pointer;
   margin-top: 1rem;
   color: white;
@@ -46,13 +55,38 @@
   align-self: flex-end;
 }
 
-.addbtn:hover {
+.btn button:hover {
   background-color: #525151;
 }
 
-.error {
-  color: red;
-  margin-left: 1rem;
-  font-size: small;
-  font-style: italic;
+.btn {
+  align-self: flex-end;
+}
+
+.login_form {
+  color: white;
+  margin-top: 1rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form label {
+  padding: 1rem;
+}
+
+.loginbtn {
+  cursor: pointer;
+  margin-top: 1rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50rem;
+  background-color: #2b2a2a;
+  position: inherit;
+  max-width: 100px;
+  align-self: flex-end;
+}
+
+.loginbtn:hover {
+  background-color: #525151;
 }

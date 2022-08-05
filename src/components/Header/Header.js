@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <Fragment>
       <div className={classes.header}>
-        <img src={Logo} alt="logo" width="70" />
+        <img src={Logo} alt="logo" width="70" className={classes.logo}/>
         <button className={classes.button}>Connect Wallet</button>
       </div>
     </Fragment>

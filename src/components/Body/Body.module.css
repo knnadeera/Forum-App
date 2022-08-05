@@ -13,7 +13,32 @@
   margin: -.5rem 0 0 3rem;
 }
 
-.content {
-  display: flex;
-  flex-direction: column-reverse;
+@media (max-width: 1024px) {
+  .body {
+    margin: 0 6rem;
+  }
+
+  .profile{
+    width: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .body {
+    margin: 0 -4rem;
+  }
+
+  .profile{
+    width: 8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .body {
+    margin: 0 -2rem;
+  }
+
+  .profile{
+    width: 7rem;
+  }
 }

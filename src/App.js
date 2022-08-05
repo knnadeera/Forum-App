@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <section>
-        <Header />
+        <Header className={classes.header}/>
       </section>
       <section className={classes.bodycomponent}>
         <Body/>

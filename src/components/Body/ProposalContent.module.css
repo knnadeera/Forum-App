@@ -58,3 +58,57 @@
 .checkbox__input:checked + .checkbox__box {
   color: rgb(2, 255, 2);
 }
+
+@media (max-width: 1024px) {
+  .rap {
+    margin: -0.5rem 0 0.9rem;
+    width: 29rem;
+  }
+
+  .profile {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .rap {
+    margin: -0.5rem 0 0.9rem;
+    width: 36rem;
+  }
+
+  .profile {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .rap {
+    margin: -0.5rem 0 0.9rem;
+    width: 18rem;
+  }
+
+  .profile {
+    width: 7rem;
+  }
+}
+@media (max-width: 375px) {
+  .rap {
+    margin: -0.5rem 0 0.9rem;
+    width:10rem;
+  }
+
+  .profile {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .rap {
+    margin: -0.5rem 0 0.9rem;
+    width: 8rem;
+  }
+
+  .profile {
+    width: 6rem;
+  }
+}

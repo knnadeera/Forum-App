@@ -64,3 +64,31 @@
   box-shadow: 0 2px 8px #555353;
   border-left: 5px solid red;
 }
+
+@media (max-width: 425px) {
+  .pages {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .pages {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .pfl {
+    font-size: smaller;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem;
+  }
+}

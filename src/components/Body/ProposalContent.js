@@ -1,7 +1,14 @@
 import classes from "./ProposalContent.module.css";
 import Card from "../UI/Card";
+import { useState } from "react";
 
 const ForumList = (props) => {
+  const [count, setCount] = useState(0);
+
+  const clickCountHandler = () => {
+    setCount((prevCount) => prevCount + 0.5);
+  };
+
   return (
     <div className={classes.rap}>
       <Card>
@@ -14,12 +21,12 @@ const ForumList = (props) => {
           <p>{props.proposal}</p>
         </div>
         <div className={classes.checkbox__div}>
-          <label className={classes.checkbox}>
+          <label className={classes.checkbox} onClick={clickCountHandler}>
             <input type="checkbox" className={classes.checkbox__input} />
             <div className={classes.checkbox__box}></div>
             Yes
           </label>
-          <div>{props.count}</div>
+          <div>{count}</div>
         </div>
       </Card>
     </div>

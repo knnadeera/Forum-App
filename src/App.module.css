@@ -2,3 +2,9 @@
     padding: 2rem 0 0 5rem;
     color: white;
 }
+
+@media all and (max-width: 425px) {
+    .bodycomponent {
+      padding: none;
+      margin: 0 -2rem;
+    }}
