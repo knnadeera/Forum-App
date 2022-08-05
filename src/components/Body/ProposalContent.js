@@ -1,4 +1,4 @@
-import classes from "./ForumContent.module.css";
+import classes from "./ProposalContent.module.css";
 import Card from "../UI/Card";
 
 const ForumList = (props) => {
@@ -11,13 +11,13 @@ const ForumList = (props) => {
         </div>
         <div className={classes.forum_content}>
           <h3>{props.title}</h3>
-          <p>{props.comment}</p>
+          <p>{props.proposal}</p>
         </div>
         <div className={classes.checkbox__div}>
           <label className={classes.checkbox}>
             <input type="checkbox" className={classes.checkbox__input} />
             <div className={classes.checkbox__box}></div>
-            Yes 
+            Yes
           </label>
           <div>{props.count}</div>
         </div>

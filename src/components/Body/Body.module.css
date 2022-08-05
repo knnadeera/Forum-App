@@ -5,6 +5,15 @@
   height: 30rem;
 }
 
-.body{
-    display: flex;
+.body {
+  display: flex;
+}
+
+.errmsg {
+  margin: -.5rem 0 0 3rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column-reverse;
 }

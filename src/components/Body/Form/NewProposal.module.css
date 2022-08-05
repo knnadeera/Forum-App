@@ -25,9 +25,9 @@
   border: none;
   border-radius: 50rem;
   text-align: center;
-  position: relative;
   top: -0.5rem;
   left: 37rem;
+  align-self: flex-end;
 }
 
 .close:hover {
@@ -41,8 +41,9 @@
   border: 1px solid white;
   border-radius: 50rem;
   background-color: #2b2a2a;
-  position: relative;
-  left: 35rem;
+  position: inherit;
+  max-width: 100px;
+  align-self: flex-end;
 }
 .post:hover {
   background-color: #525151;

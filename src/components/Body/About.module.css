@@ -1,6 +1,8 @@
 .about {
     color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .close {
@@ -10,9 +12,9 @@
     border: none;
     border-radius: 50rem;
     text-align: center;
-    position: relative;
     top: -0.5rem;
     left: 37rem;
+    align-self: flex-end;
   }
   
   .close:hover {
