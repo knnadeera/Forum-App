@@ -6,7 +6,7 @@ const ForumList = (props) => {
   const [count, setCount] = useState(0);
 
   const clickCountHandler = () => {
-    setCount((prevCount) => prevCount + 0.5);
+    setCount((prevCount) => prevCount + .5);
   };
 
   return (
